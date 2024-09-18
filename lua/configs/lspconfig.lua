@@ -34,6 +34,9 @@ require'lspconfig'.ts_ls.setup{
   },
 }
 
+
+require'lspconfig'.clangd.setup{}
+
 -- You must make sure volar is setup
 require'lspconfig'.volar.setup{}
 -- See volar's section for more information
